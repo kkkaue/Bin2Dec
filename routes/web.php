@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -19,5 +18,7 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Index');
 });
+
+Route::post('/convert', [App\Http\Controllers\ConvertController::class, 'convert'])->name('convert');
 
 require __DIR__.'/auth.php';
