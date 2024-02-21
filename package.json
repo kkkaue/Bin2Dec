@@ -21,10 +21,12 @@
     },
     "dependencies": {
         "@radix-icons/vue": "^1.0.0",
+        "@vueuse/core": "^10.8.0",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.0",
         "radix-vue": "^1.4.8",
         "tailwind-merge": "^2.2.1",
-        "tailwindcss-animate": "^1.0.7"
+        "tailwindcss-animate": "^1.0.7",
+        "v-calendar": "^3.1.2"
     }
 }
